@@ -1,0 +1,14 @@
+{
+  "name": "farmacia-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "App web instalável (PWA) para farmácia: login, montra de produtos e pedidos com ou sem receita. Sem dependências externas.",
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning test/smoke.js",
+    "icons": "python3 scripts/make-icons.py"
+  },
+  "license": "UNLICENSED"
+}
